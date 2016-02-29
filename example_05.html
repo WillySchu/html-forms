@@ -18,6 +18,53 @@
     <h1>Form Fields: Example 5</h1>
 
     <form action="" method="get">
+      <label>Song Name
+        <input type="text" name="song" value="Somewhere Over the Rainbow"/>
+      </label>
+      <br>
+      <label>Songwriter Email
+        <input type="email" name="email" value="judy@garland.net"/>
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="aca-awesome" value="true"/>
+        Aca-awesome?
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="will-win-regionals" value="true"/>
+        Will win regionals?
+      </label>
+      <br>
+      <label>
+        Slight Diva
+        <input type="radio" name="diva-level" value="1">
+        <input type="radio" name="diva-level" value="2">
+        <input type="radio" name="diva-level" value="3">
+        Extreme Diva
+      </label>
+      <br>
+      <label>
+        Comments
+        <br>
+        <textarea name="comment">Great song.&#13;&#10;Love it!</textarea>
+      </label>
+      <br>
+      <label>
+        <em>Super secret hidden field...</em>
+        <input type="hidden" name="secret-field" value="42">
+      </label>
+      <br>
+      <label>
+        Soloist
+        <select class="" name="soloist">
+          <option>Mercedes Jones</option>
+        </select>
+      </label>
+      <br>
+      <button type="submit" name="submit" value="52">success</button>
+      <button type="submit" name="cancel">cancelled</button>
+      <button type="submit" name="blah">I can <em>haz</em> html!</button>
     </form>
 
     <div class="query-params">
