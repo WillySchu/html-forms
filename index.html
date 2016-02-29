@@ -18,6 +18,39 @@
     <h1>Form Fields: Example 1</h1>
 
     <form action="" method="get">
+      <fieldset>
+        <legend>Some Group of Stuff</legend>
+
+      <label for="one">First:</label>
+      <input id="one" type="text" value="Hello" name="one" autofocus=""/>
+
+      <label for="two">Second:</label>
+      <input id="two" type="text" name="two" placeholder="two"/>
+
+      <label>Third:
+        <textarea id="three" name="three" rows="8" cols="40"></textarea>
+      </label>
+
+    </fieldset>
+
+    <fieldset>
+      <label for="four">Fourth:</label>
+      <textarea id="four" name="four" rows="8" cols="40">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+
+      <label for="five">Fifth:</label>
+      <input id="five" type="email" name="five" value=""/>
+
+      <label for="six">Sixth:</label>
+      <input id="six" type="date" name="six" value=""/>
+
+      <label for="seven">Seventh:</label>
+      <input id="seven" type="number" name="seven" value=""/>
+
+      <label for="eight">Eighth:</label>
+      <input id="eight" type="file" name="eight" value=""/>
+
+      <button type="submit" name="submit" value="Submit">Submit</button>
+    </fieldset>
     </form>
 
     <div class="query-params">
